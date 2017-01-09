@@ -3,6 +3,9 @@ function multiply (a,b){
         return b;
     }
     else if (a === 0){
-        return a;
+        return a + a;
+    }
+    else {
+        return "I can't do that Steve"
     }
 }
